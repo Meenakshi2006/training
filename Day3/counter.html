@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .center {
+        min-height: 100svh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+      button {
+        padding: 6px 14px;
+        cursor: pointer;
+        border-radius: 6px;
+      }
+    </style>
+  </head>
+  <body class="center">
+    <h1>Counter</h1>
+    <h2 id="h2">0</h2>
+    <button onclick="increment()">Increment</button>
+    <button onclick="decrement()">Decrement</button>
+    <button onclick="increaseByFive()">Increment By 5</button>
+
+    <script>
+      let counter = 0;
+      function increment() {
+        const h2 = document.getElementById("h2");
+        h2.innerText = ++counter;
+      }
+      function decrement() {
+        const h2 = document.getElementById("h2");
+        h2.innerText = --counter;
+      }
+      function increaseByFive() {
+        const h2 = document.getElementById("h2");
+        counter += 5;
+        h2.innerText = counter;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+1.) Change the mode of the GitHub and leetcode website from light to dark and dark to light in the browser using the DevTools Elements panel.
+
+2.) Complete the two-step form:
+
+Click the 'Next' button → hide the entire HTML of the left part and show the new form on the left side. When the 'Back' button is clicked, it returns to step 1.
