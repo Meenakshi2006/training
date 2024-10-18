@@ -1,0 +1,35 @@
+-----------------------------------
+       --- Frontend Mentor ---
+-----------------------------------
+
+
+-------------------------------	
+       Easy Level
+-------------------------------
+1  - social links profile
+2  - Blog Preview card
+3  - FAQ accordion
+4  - Product preview card component
+5  - Interactive rating component
+6  - QR code component
+7  - NFT preview card component
+8  - Order Summary component
+9  - Stats Preview card component
+10 - 3-column preview card component
+11 - Article pre view component
+12 - Launch countdown timer
+
+-------------------------------	
+       Mediam Level
+-------------------------------
+Todo app
+Calculator app
+Multi-Step form
+Rock, Paper, Scissors game
+
+
+------------------------------------------------
+       Hard = Mediam Level + API Integration
+------------------------------------------------
+
+REST Countries API with color theme switcher
