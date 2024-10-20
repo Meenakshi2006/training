@@ -32,3 +32,29 @@ img {
 .div-3 > span {
   cursor: pointer;
 }
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 10px;
+}
+
+.card {
+  /* min-width: 200px; */
+  min-height: 200px;
+}
+
+.card-1,
+.card-2 {
+  grid-row: 1 / 2;
+}
+.card-3,
+.card-4 {
+  grid-row: 1 / 1;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
