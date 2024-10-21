@@ -7,8 +7,9 @@ Basic of Js:
 Variables
 Functions 
 
--- Pending --
 Array and Objects : push,pop,map,filter
+
+-- Pending --
 
 Asynchronous Js
   Callbacks
@@ -18,7 +19,7 @@ Asynchronous Js
 Browser APIs
 -- localStorage and sessionStorage
 -- Fetch API
- --- GET and POST request
+-- GET and POST request
 -- JSON handling
 
 
